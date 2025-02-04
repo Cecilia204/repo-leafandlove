@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leaf & Love</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Leaf & Love</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./plantas.html">Plantas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./macetas.html">Macetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Más <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./el_blog.html">El Blog</a></li>
+                                <li><a class="dropdown-item" href="./suscribete.html">Suscripción</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex ms-auto" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success" type="submit"> 
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="tips_main">
+            <div class="tips">
+                <h2>¡Suscríbete a nuestra Newsletter</h2>
+                <p>Todos los dias reciberas tips sobre las plantas y sus cuidados</p>
+            </div>
+
+            <div class="form-container">
+                <form class="suscribete-pag">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="telefono">Número de teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos">Acepto los <strong>términos y la política de privacidad</strong></label>
+                    </div>
+                    <button type="submit" class="btn-container">ENVIAR</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <section>
+                <h2>CONTACTO</h2>
+                <ul>
+                    <li>Dirección: Siempreviva,7042,Springfield,North Takoma,Estados Unidos</li>
+                    <li>Contacto: 764-84377</li>
+                    <li>Email:oasisverde@gmail.com</li>
+                </ul>
+            </section>
+            <section>
+                <h2>HORARIOS</h2>
+                <ul>
+                    <li>Lun-Vie:09:00-17:00</li>
+                    <li>Sábados:09:00-13:00</li>
+                    <li>Domingos:Cerrados</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Categorías de productos</h2>
+                <a href="../index.html">Inicio</a>
+                <a href="./plantas.html">Plantas</a>
+                <a href="./macetas.html">Macetas</a>
+                <a href="./ofertas.html">Ofertas</a>
+            </section>
+        </footer>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

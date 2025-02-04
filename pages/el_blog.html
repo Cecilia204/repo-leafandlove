@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leaf & Love</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Leaf & Love</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./macetas.html">Macetas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Más <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./el_blog.html">El Blog</a></li>
+                                    <li><a class="dropdown-item" href="./suscribete.html">Suscripción</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success" type="submit"> 
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="blog-section">
+                <h2 class="mb-4">Descubre Más Sobre el Mundo de las Plantas</h2>
+                <div class="container" style="padding-bottom: 50px;">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_uno.webp" class="card-img-top" alt="Cómo hacer compost casero">
+                                <div class="card-body">
+                                    <h3 class="card-title">Cómo hacer compost casero</h3>
+                                    <p class="card-text">El compost es un fertilizante natural que mejora la salud del suelo.</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido1">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido1" class="collapse mt-3">
+                                        <p>Para hacerlo en casa:</p>
+                                        <ul>
+                                            <li>Usa restos orgánicos como cáscaras de frutas, verduras y hojas secas.</li>
+                                            <li>Evita productos lácteos o carnes, ya que generan mal olor.</li>
+                                            <li>Mezcla los residuos en un contenedor con buen drenaje.</li>
+                                            <li>Remueve cada semana y, en unos meses, tendrás compost listo para usar.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_dos.webp" class="card-img-top" alt="Errores comunes al cuidar plantas">
+                                <div class="card-body">
+                                    <h3 class="card-title">Errores comunes al cuidar plantas</h3>
+                                    <p class="card-text">Para mantener tus plantas saludables, evita estos errores:</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido2">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido2" class="collapse mt-3">
+                                        <ul>
+                                            <li>Regar demasiado: Puede pudrir las raíces.</li>
+                                            <li>No cambiar la maceta: Las raíces pueden quedar apretadas, afectando el crecimiento.</li>
+                                            <li>Ubicación incorrecta: La luz y la ventilación son clave para su desarrollo.</li>
+                                            <li>No limpiar las hojas: El polvo impide que absorban bien la luz.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_tres.jpeg" class="card-img-top" alt="Luz y ubicación:dónde colocar cada planta">
+                                <div class="card-body">
+                                    <h3 class="card-title">Luz y ubicación:dónde colocar cada planta</h3>
+                                    <p class="card-text">Colocar las plantas en el lugar correcto evitará que sus hojas se quemen o se debiliten por falta de luz.</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido3">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido3" class="collapse mt-3">
+                                        <p>Cada planta necesita una cantidad de luz diferente:</p>
+                                        <ul>
+                                            <li>Luz directa: Suculentas, cactus y geranios.</li>
+                                            <li>Luz indirecta: Ficus, potos y monsteras.</li>
+                                            <li>Sombra parcial: Helechos, calatheas y zamioculcas.</li>
+                                        </ul>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_cuatro.webp" class="card-img-top" alt="Cómo regar correctamente tus plantas">
+                                <div class="card-body">
+                                    <h3 class="card-title">Cómo regar correctamente tus plantas</h3>
+                                    <p class="card-text">El exceso de riego es un error común que puede dañar las plantas.</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido4">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido4" class="collapse mt-3">
+                                        <p>Aquí algunos consejos:</p>
+                                        <ul>
+                                            <li>Revisa la tierra: Introduce un dedo en la tierra; si está húmeda, espera antes de regar.</li>
+                                            <li>Evita el agua estancada: Usa macetas con agujeros de drenaje.</li>
+                                            <li>Riego según la planta: Cactus y suculentas necesitan poca agua, mientras que helechos y calatheas requieren más humedad.</li>
+                                            <li>Horario ideal: Riega temprano en la mañana o al atardecer para evitar la evaporación rápida.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_cinco.webp" class="card-img-top" alt="Plantas de interior fáciles de cuidar">
+                                <div class="card-body">
+                                    <h3 class="card-title">Plantas de interior fáciles de cuidar</h3>
+                                    <p class="card-text">Si eres principiante o tienes poco tiempo, estas plantas son resistentes y fáciles de cuidar.</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido5">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido5" class="collapse mt-3">
+                                        <p>Aquí algunos consejos:</p>
+                                        <ul>
+                                            <li>Sansevieria (Lengua de suegra): Tolera poca luz y largos períodos sin riego.</li>
+                                            <li>Poto: Crece rápido y se adapta a distintos ambientes.</li>
+                                            <li>Zamioculca: Necesita poca agua y sobrevive en sombra parcial.</li>
+                                            <li>Cactus y suculentas: Ideales para quienes olvidan regar.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="../img/blog_seis.jpeg" class="card-img-top" alt="Usa piedras en la superficie del sustrato">
+                                <div class="card-body">
+                                    <h3 class="card-title">Usa piedras en la superficie del sustrato</h3>
+                                    <p class="card-text"> Colocar una capa de piedras en la tierra no es solo decorativo, también tiene beneficios prácticos.</p>
+                                    <button class="btn btn-leer" data-bs-toggle="collapse" data-bs-target="#contenido6">
+                                        Leer más
+                                    </button>
+                                    <div id="contenido6" class="collapse mt-3">
+                                        <ul>
+                                            <li>Evita la evaporación rápida: Mantiene la humedad por más tiempo.</li>
+                                            <li>Impide que la tierra salpique al regar: Mantiene limpio el entorno.</li>
+                                            <li>Dificulta la aparición de plagas: Como mosquitos del sustrato.</li>
+                                            <li>Mejora el drenaje: Especialmente en suculentas y cactus.</li>
+                                        </ul>
+                                        <p>Un detalle simple que mejora la salud y el aspecto de tus plantas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <h2>CONTACTO</h2>
+                <ul>
+                    <li>Dirección: Siempreviva,7042,Springfield,North Takoma,Estados Unidos</li>
+                    <li>Contacto: 764-84377</li>
+                    <li>Email:oasisverde@gmail.com</li>
+                </ul>
+            </section>
+            <section>
+                <h2>HORARIOS</h2>
+                <ul>
+                    <li>Lun-Vie:09:00-17:00</li>
+                    <li>Sábados:09:00-13:00</li>
+                    <li>Domingos:Cerrados</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Categorías de productos</h2>
+                <a href="../index.html">Inicio</a>
+                <a href="./plantas.html">Plantas</a>
+                <a href="./macetas.html">Macetas</a>
+                <a href="./ofertas.html">Ofertas</a>
+            </section>
+        </footer>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
